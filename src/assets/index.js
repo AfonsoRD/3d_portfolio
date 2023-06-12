@@ -34,6 +34,8 @@ import chat from './chat.png';
 import meet from './meet.png';
 import pokedex from './pokedex.png';
 
+import resume from './resume.pdf';
+
 export {
   logo,
   backend,
@@ -66,5 +68,6 @@ export {
   myflix,
   meet,
   pokedex,
-  chat
+  chat,
+  resume
 };

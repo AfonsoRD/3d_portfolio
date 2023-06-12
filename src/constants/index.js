@@ -25,7 +25,8 @@ import {
   meet,
   pokedex,
   chat,
-  threejs
+  threejs,
+  resume
 } from '../assets';
 
 export const navLinks = [
@@ -59,6 +60,13 @@ const services = [
   {
     title: 'Backend Developer',
     icon: creator
+  }
+];
+
+const resume_file = [
+  {
+    name: 'Resume',
+    resume_link: resume
   }
 ];
 
@@ -305,4 +313,4 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, resume };

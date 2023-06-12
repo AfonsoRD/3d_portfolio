@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import { resume } from '../constants';
 
 import { SectionWrapper } from '../hoc';
 
@@ -60,6 +61,14 @@ const About = () => {
         same values as mine and that I can add something with my personality and
         knowledge.
       </motion.p>
+      <div className='mt-10 flex flex-wrap gap-10 justify-center'>
+        <button
+          className=' bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+          onClick={() => window.open(resume, '_blank')}
+        >
+          Resume
+        </button>
+      </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
