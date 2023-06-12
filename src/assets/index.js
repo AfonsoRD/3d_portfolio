@@ -28,11 +28,9 @@ import fnac from './company/fnac.png';
 import apple from './company/apple.png';
 import vodafone from './company/vodafone.png';
 
-import api from './api.png';
 import myflix from './myflix.png';
 import chat from './chat.png';
 import meet from './meet.png';
-import pokedex from './pokedex.png';
 
 import resume from './resume.pdf';
 
@@ -64,10 +62,8 @@ export {
   trofa,
   fujitsu,
   apple,
-  api,
   myflix,
   meet,
-  pokedex,
   chat,
   resume
 };

@@ -20,10 +20,8 @@ import {
   trofa,
   fujitsu,
   apple,
-  api,
   myflix,
   meet,
-  pokedex,
   chat,
   threejs,
   resume
@@ -190,16 +188,20 @@ const experiences = [
 
 const projects = [
   {
-    name: 'My Flix Client',
+    name: 'My Flix APP',
     description:
-      'This project is a single-page application (SPA), a client-side of myFlix app built using React as a framework, and was created to show movies using My Flix API.',
+      'This project is a single-page application (SPA), built using the MERN stack, that provides users with access to information about movies, directors, and genres. Users are able to create an account, update their personal data, and create a list of favorite movies.',
     tags: [
       {
         name: 'React',
         color: 'blue-text-gradient'
       },
       {
-        name: 'Parcel',
+        name: 'Node.js',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'Express',
         color: 'blue-text-gradient'
       },
       {
@@ -214,36 +216,6 @@ const projects = [
     image: myflix,
     source_code_link: 'https://github.com/AfonsoRD/myFlix-client',
     website_link: 'https://myflix-by-afonsord.netlify.app/login'
-  },
-  {
-    name: 'My Flix API',
-    description:
-      'This project is a REST API for a movie platform application that interacts with a database and displays data about different movies, directors, and genres. The database can store movies and users to the users be able to sign up, login and create a list of their favorite movies. This API is hosted using Vercel and the database using Atlas MongoDB.',
-    tags: [
-      {
-        name: 'Express',
-        color: 'blue-text-gradient'
-      },
-      {
-        name: 'Node.js',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'MongoDB',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'Mongoose',
-        color: 'pink-text-gradient'
-      }
-    ],
-    image: api,
-    source_code_link: 'https://github.com/AfonsoRD/movie_api',
-    website_link: 'https://movie-api-afonsord.vercel.app/'
   },
   {
     name: 'LEET - PWA',
@@ -292,24 +264,6 @@ const projects = [
     image: chat,
     source_code_link: 'https://github.com/AfonsoRD/chat-bot',
     website_link: 'https://github.com/AfonsoRD/chat-bot'
-  },
-  {
-    name: 'JS Pokédex APP',
-    description:
-      'The JS Pokédex is an JavaScript Web App that loads data from Pokémon API using the most modern HTML, CSS and ES6 that enable the viewing of a list of 1154 Pokémons.',
-    tags: [
-      {
-        name: 'jQuery',
-        color: 'blue-text-gradient'
-      },
-      {
-        name: 'Bootstrap',
-        color: 'green-text-gradient'
-      }
-    ],
-    image: pokedex,
-    source_code_link: 'https://github.com/AfonsoRD/JS-Pokedex',
-    website_link: 'https://afonsord.github.io/JS-Pokedex/'
   }
 ];
 
