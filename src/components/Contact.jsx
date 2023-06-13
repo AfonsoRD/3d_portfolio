@@ -74,7 +74,7 @@ const Contact = () => {
         <div
           className={`xl:mt-12 flex xl:flex-row flex-col justify-center items-center gap-10 overflow-hidden text-white   text-[15px] font-bold`}
         >
-          <p>Living in Deutschland (Willing to Relocate) &nbsp;</p>
+          <p>Living in Bremen, Germany (Willing to Relocate) &nbsp;</p>
           <p> &nbsp;+49 157 3560 2128 &nbsp; </p>
           <p>&nbsp;Email: afonso.r.dev@gmail.com</p>
         </div>
