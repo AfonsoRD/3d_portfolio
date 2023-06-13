@@ -34,11 +34,8 @@ const ProfileImg = () => (
         </div>
         <div className=' green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
           <div className='bg-tertiary rounded-[20px] py-1 px-1'>
-            <button
-              className=' bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-              onClick={() => window.open(resume, '_blank')}
-            >
-              Projects
+            <button className=' bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>
+              <a href='#projects'>Projects</a>
             </button>
           </div>
         </div>
