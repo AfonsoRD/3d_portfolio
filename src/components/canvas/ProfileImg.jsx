@@ -8,7 +8,7 @@ import { resume } from '../../assets';
 const ProfileImg = () => (
   <>
     <div
-      className={`absolute inset-0 top-[250px]  max-w-7xl mx-auto ${styles.paddingX} flex sm:flex-row flex-col gap-5 justify-evenly items-center`}
+      className={`relative inset-0 top-[250px]  max-w-7xl mx-auto ${styles.paddingX} flex sm:flex-row flex-col gap-5 justify-evenly items-center`}
     >
       <Tilt className='xl:w-[350px] md:w-[250px] w-[150px] mt-20'>
         <div className='w-full green-pink-gradient p-[2px] rounded-[20px] shadow-card'>

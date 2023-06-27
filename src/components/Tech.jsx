@@ -28,7 +28,7 @@ const Tech = () => {
           >
             <img
               src={technology.icon}
-              alt={technology.name}
+              alt={''}
             />
             <h1 className='flex justify-center text-secondary'>
               {technology.name}

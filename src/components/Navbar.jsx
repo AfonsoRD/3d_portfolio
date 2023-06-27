@@ -44,13 +44,13 @@ const Navbar = () => {
         >
           <img
             src={logo}
-            alt='logo'
+            alt='Rui Afonso logo'
             className='w-9 h-9 object-contain'
           />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <h2 className='text-white text-[18px] font-bold cursor-pointer flex '>
             Rui Afonso &nbsp;
             <span className='sm:block hidden'> | Web Developer</span>
-          </p>
+          </h2>
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
