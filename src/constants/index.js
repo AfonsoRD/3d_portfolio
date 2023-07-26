@@ -22,7 +22,7 @@ import {
   apple,
   myflix,
   meet,
-  chat,
+  find_a_car,
   threejs,
   resume
 } from '../assets';
@@ -192,12 +192,46 @@ const experiences = [
 
 const projects = [
   {
+    name: 'Find-a-Car',
+    description:
+      'Introducing a business rent-a-car app, built with the latest Next.js 13 features, including server-side rendering and the Next.js 13 App Router. The app offers advanced search functionality, filtering options, and optimized metadata for improved SEO. With a well-organized file structure and adherence to clean code principles, maintainability is ensured. ',
+    tags: [
+      {
+        name: 'React.js',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'Next.js 13',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'TypeScript',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'Vercel',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'Server Side',
+        color: 'green-text-gradient'
+      }
+    ],
+    image: find_a_car,
+    source_code_link: 'https://github.com/AfonsoRD/find_a_car',
+    website_link: 'https://find-a-car.vercel.app/'
+  },
+  {
     name: 'My Flix APP',
     description:
       'This project is a single-page application (SPA), built using the MERN stack, that provides users with access to information about movies, directors, and genres. Users are able to create an account, update their personal data, and create a list of favorite movies.',
     tags: [
       {
-        name: 'React',
+        name: 'React.js',
         color: 'blue-text-gradient'
       },
       {
@@ -227,7 +261,7 @@ const projects = [
       'This project is a PWA App to display events related to coding around the world. This progressive web application is serverless, hosted with AWS and built in React, using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.',
     tags: [
       {
-        name: 'React',
+        name: 'React.js',
         color: 'blue-text-gradient'
       },
       {
@@ -246,28 +280,6 @@ const projects = [
     image: meet,
     source_code_link: 'https://github.com/AfonsoRD/meet',
     website_link: 'https://afonsord.github.io/meet/'
-  },
-  {
-    name: 'Chat APP',
-    description:
-      'A Chat App for mobile devices using React Native. The app will provide users with a chat interface and options to share images and their location.',
-    tags: [
-      {
-        name: 'React Native',
-        color: 'blue-text-gradient'
-      },
-      {
-        name: 'EXPO',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'Google Firebase',
-        color: 'pink-text-gradient'
-      }
-    ],
-    image: chat,
-    source_code_link: 'https://github.com/AfonsoRD/chat-bot',
-    website_link: 'https://github.com/AfonsoRD/chat-bot'
   }
 ];
 

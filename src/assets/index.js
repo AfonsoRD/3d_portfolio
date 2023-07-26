@@ -29,7 +29,7 @@ import apple from './company/apple.png';
 import vodafone from './company/vodafone.png';
 
 import myflix from './myflix.png';
-import chat from './chat.png';
+import find_a_car from './find_a_car.png';
 import meet from './meet.png';
 
 import resume from './resume.pdf';
@@ -64,6 +64,6 @@ export {
   apple,
   myflix,
   meet,
-  chat,
+  find_a_car,
   resume
 };
