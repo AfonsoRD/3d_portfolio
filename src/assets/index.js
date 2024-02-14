@@ -21,7 +21,9 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
+import figma from './tech/figma.svg';
 
+import smatched from './company/smatched.png';
 import fujitsu from './company/fujitsu.png';
 import trofa from './company/trofa.png';
 import fnac from './company/fnac.png';
@@ -29,6 +31,7 @@ import apple from './company/apple.png';
 import vodafone from './company/vodafone.png';
 
 import myflix from './myflix.png';
+import offerwall from './offerwall.png';
 import find_a_car from './find_a_car.png';
 import meet from './meet.png';
 
@@ -50,6 +53,7 @@ export {
   website,
   html,
   javascript,
+  figma,
   mongodb,
   nodejs,
   reactjs,
@@ -65,5 +69,7 @@ export {
   myflix,
   meet,
   find_a_car,
+  smatched,
+  offerwall,
   resume
 };

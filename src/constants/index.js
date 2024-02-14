@@ -14,11 +14,14 @@ import {
   nodejs,
   mongodb,
   git,
+  figma,
+  offerwall,
   angular,
   vodafone,
   fnac,
   trofa,
   fujitsu,
+  smatched,
   apple,
   myflix,
   meet,
@@ -122,12 +125,28 @@ const technologies = [
     icon: threejs
   },
   {
-    name: 'git',
+    name: 'Git',
     icon: git
+  },
+  {
+    name: 'Figma',
+    icon: figma
   }
 ];
 
 const experiences = [
+  {
+    title: 'React Front-End Developer Internship',
+    company_name: 'Smatched',
+    icon: smatched,
+    iconBg: '#E6DEDD',
+    date: 'Oct 2023 - Jan 2024',
+    points: [
+      'Develop responsive website pages, ensuring the stability and functionality across multiple devices such as desktop, mobile, and talet',
+      'Collaboration with other developers and worked closely with UX/UI designers to ensure seamless integration of the project.',
+      'Participation with new ideas in meetings to improve the use and design of products.'
+    ]
+  },
   {
     title: 'Service Desk Agent',
     company_name: 'Fujitsu',
@@ -137,7 +156,7 @@ const experiences = [
     points: [
       'Support for normal technical issues related to Microsoft products, operating system, basic networking, PCs for Schneider Electric in Spanish-speaking countries, English-speaking countries and Portugal.',
       'Resolve problems as needed to provide the required level of service and meet or exceed customer/SLAs expectations. Monitor performance through reporting and statistical analysis.',
-      'Participating in SLA and KPI reviews and providing constructive feedback to the team.'
+      'Participation in SLA and KPI reviews and providing constructive feedback to the team.'
     ]
   },
   {
@@ -191,6 +210,36 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: 'Offerwall Monetization',
+    description:
+      'An Offerwall is a type of in-app advertising unit that allows users to earn rewards by completing certain actions like downloading apps, signing up for newsletters, or conducting surveys. The user earns in-game currency and the gaming publisher earns revenue. This app was built during my internship at Smatched GmbH using the latest version of React.JS, HTML and vanilla CSS',
+    tags: [
+      {
+        name: 'React.js',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'HTML',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'Vanilla CSS',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'Javascript',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'Firestorm',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: offerwall,
+    source_code_link: 'https://github.com/AfonsoRD?tab=repositories',
+    website_link: 'https://www.offerwallmonetization.com/'
+  },
   {
     name: 'Find-a-Car',
     description:
